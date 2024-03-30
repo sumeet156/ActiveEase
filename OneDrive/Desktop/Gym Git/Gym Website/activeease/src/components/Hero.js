@@ -1,11 +1,15 @@
 import React from 'react'
 import img from '../images/hero.jpg';
 import './Hero.css'
+import Popup from './Popup';
 
-function Hero() {
+
+function Hero({login,register}) {
+
+  console.log(login, register)
   return (
     <div className='hero'>
-        <img src={img}/>
+      <Popup loginState={login} registerState={register}/>
     </div>
   )
 }

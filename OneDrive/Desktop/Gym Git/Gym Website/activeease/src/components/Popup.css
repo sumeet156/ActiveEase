@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.popup{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    height: 60%;
+    width: 30%;
+    border-radius: 20px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 190, 190);
+    text-align: center !important;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.popup .heading{
+    margin: 5px auto;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 0.1px;
+}
+
+.input input{
+    height: 35px;
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    padding: 2px 5px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px auto;
+    font-weight: 500;
+}
+
+.input button{
+    font-weight: 600;
+    font-size: 1rem;
+    height: 35px;
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    padding: 2px 5px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px auto;
+}
+
+.input button:hover{
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+.other{
+    display: flex;
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 80%;
+}
+
+.other .register{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    
+}
+
+.custom-icon{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    cursor: pointer;
+}

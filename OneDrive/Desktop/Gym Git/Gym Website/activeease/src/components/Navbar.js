@@ -3,7 +3,7 @@ import navlogo from '../images/navlogo.png';
 import { FaUser } from "react-icons/fa";
 import './Navbar.css'
 
-function Navbar() {
+function Navbar({ setLogin, setRegister}) {
   return (
     <div className="navbar">
       <div className="logo">
@@ -17,7 +17,10 @@ function Navbar() {
         <a href="#">Store</a>
       </div>
       <div className="profile">
-        <FaUser />
+        {/* <FaUser /> */}
+        <button className="login-button" onClick={()=>{
+          setLogin(true);
+        }}>Login</button>
       </div>
     </div>
   );

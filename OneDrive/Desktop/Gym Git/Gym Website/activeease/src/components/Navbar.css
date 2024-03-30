@@ -10,6 +10,8 @@
     align-items: center;
     justify-content: space-around;
     /* padding: auto 0px; */
+    position: fixed;
+    z-index: 99;
 }
 
 .navbar .logo{
@@ -54,4 +56,16 @@
     /* border: 1px solid red; */
     width: 20%;
     text-align: center;
+}
+
+.navbar .login-button{
+    border: none;
+    border-radius: 8px;
+    padding: 4px 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .login-button:hover{
+    cursor: pointer;
 }
