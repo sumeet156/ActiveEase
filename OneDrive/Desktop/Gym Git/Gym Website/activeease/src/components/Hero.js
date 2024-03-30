@@ -4,12 +4,12 @@ import './Hero.css'
 import Popup from './Popup';
 
 
-function Hero({login,register}) {
+function Hero({login,register, setLogin, setRegister}) {
 
-  console.log(login, register)
+  console.log(login, register);
   return (
     <div className='hero'>
-      <Popup loginState={login} registerState={register}/>
+      <Popup loginState={login} registerState={register} loginUpdate={setLogin} registerUpdate={setRegister}/>
     </div>
   )
 }

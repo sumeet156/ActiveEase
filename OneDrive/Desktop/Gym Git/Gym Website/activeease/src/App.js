@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar  setLogin={setLoginPopup} setRegister={setRegisterPopup}/>
-      <Hero login={loginPopup} register={registerPopup}/>
+      <Hero login={loginPopup}  setLogin={setLoginPopup} setRegister={setRegisterPopup} register={registerPopup}/>
     </div>
   );
 }

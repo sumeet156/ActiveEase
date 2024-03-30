@@ -75,7 +75,10 @@ input:focus {
     text-decoration: none;
     color: white;
     margin-left: 5px;
-    
+}
+
+.other a:hover{
+    cursor: pointer;
 }
 
 .custom-icon{
