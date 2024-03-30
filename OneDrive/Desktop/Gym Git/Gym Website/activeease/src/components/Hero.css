@@ -1,0 +1,10 @@
+.hero{
+    height: calc(100vh - 80px);
+    width: 100vw;
+}
+
+.hero img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
