@@ -12,8 +12,8 @@ function Navbar({ setLogin, setRegister}) {
       </div>
       <div className="nav-items">
         <a href="#">Fitness</a>
-        <a href="#">Cure</a>
-        <a href="#">Mind</a>
+        <a href="#">Plans</a>
+        <a href="#">Our Trainers</a>
         <a href="#">Store</a>
       </div>
       <div className="profile">
